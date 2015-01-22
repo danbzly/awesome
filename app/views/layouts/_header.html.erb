@@ -21,7 +21,7 @@
       <li><%= link_to "Log out", destroy_admin_session_path, method: :delete %></li>
       <% else %>
       <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Log In", new_admin_session_path %></li>
+      <li><%= link_to "Log in", "#myModal", "data-toggle" => "modal" %></li>
       <% end %>
     </ul>
   </div><!-- /.navbar-collapse -->
