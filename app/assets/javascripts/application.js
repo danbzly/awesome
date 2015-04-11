@@ -17,3 +17,10 @@
 //= require turbolinks
 //= require masonry/jquery.masonry
 //= require_tree .
+
+
+$(document).ready(function(){
+  setTimeout(function(){
+    $('.notice').remove();
+  }, 5000);
+ })
